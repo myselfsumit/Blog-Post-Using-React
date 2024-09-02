@@ -1,5 +1,14 @@
 import React from "react";
+import Header from "./component/Header";
+import Blogs from "./component/Blogs";
+import Pagination from "./component/Pagination";
 
 export default function App() {
-  return <div>Hello World</div>;
+  return (
+    <div>
+      <Header/>
+      <Blogs/>
+      <Pagination/>
+    </div>
+  )
 }
