@@ -2,9 +2,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
-      <Header>
-        <h1>LearnSphere Blogs</h1>
+    <div className="w-full border shadow-md py-4 fixed  top-0 bg-white">
+      <Header className="text-center">
+        <h1 className="text-3xl font-bold  uppercase">LearnSphere Blogs</h1>
       </Header>
     </div>
   );
